@@ -11,7 +11,7 @@ function getPageCount() {
 function revealAllPagePlaceholders() {
   let continueButton
   while ((continueButton = document.getElementById('continueButton')) != null) {
-    continueButton.click()
+    continueButton.click();
   }
 
   // Sanity check: make sure page canvases exist for all expected pages
